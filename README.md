@@ -1,7 +1,7 @@
 # AI-Generated-Portfolio-Website-from-Resume
 Creating portfolio website based on user Resume
 
-1 . An end-to-end AI-powered application that converts a resume (PDF or DOCX) into a professional, responsive portfolio website automatically.
+1. An end-to-end AI-powered application that converts a resume (PDF or DOCX) into a professional, responsive portfolio website automatically.
 
 2. This project demonstrates how LangChain and Large Language Models (LLMs) can be used to build real-world automation pipelines — from document parsing to frontend code generation.
 
