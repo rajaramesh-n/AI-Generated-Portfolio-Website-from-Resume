@@ -31,21 +31,21 @@ This project solves that problem by allowing users to upload a resume and instan
 
 6. script.js
 
- 7. One-click ZIP download
+7. One-click ZIP download
 
- 8. Clean and simple Streamlit UI
+8. Clean and simple Streamlit UI
 
- 9. Fully automated end-to-end workflow
+9. Fully automated end-to-end workflow
 
 **How It Works (Step-by-Step) :**
 
-1 . User uploads a resume (PDF or DOCX)
+1. User uploads a resume (PDF or DOCX)
 
 2. Resume content is extracted using document parsers
 
-3 . LLM #1 analyzes the resume and creates a structured website specification
+3. LLM #1 analyzes the resume and creates a structured website specification
 
-4 . LLM #2 generates complete frontend code (HTML, CSS, JS)
+4. LLM #2 generates complete frontend code (HTML, CSS, JS)
 
 5. Files are bundled into a ZIP archive
 
@@ -53,19 +53,19 @@ This project solves that problem by allowing users to upload a resume and instan
 
 **Tech Stack** :
 
-**Layer**	                     **Technology**
+**Layer**	    ---->                 **Technology**
 
-UI	                            Streamlit
+UI	           ---->                 Streamlit
 
-Language	                      Python
+Language	     ---->                 Python
 
-LLM Framework	                 LangChain
+LLM Framework	---->                 LangChain
 
-AI Model	                      Google Gemini
+AI Model	     ---->                 Google Gemini
 
-Resume Parsing	                PyPDF2, python-docx
+Resume Parsing---->	                PyPDF2, python-docx
 
-Packaging	                     zipfile
+Packaging	    ---->                 zipfile
 
  **Project Structure** :
  
@@ -98,8 +98,6 @@ cd ai-portfolio-generator
 python -m venv venv
 
 venv\Scripts\activate
-
-# Windows  # source venv/bin/activate  # macOS/Linux
 
 3 Install Dependencies
 
