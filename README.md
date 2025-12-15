@@ -54,35 +54,55 @@ This project solves that problem by allowing users to upload a resume and instan
 **Tech Stack** :
 
 **Layer**	                     **Technology**
+
 UI	                            Streamlit
+
 Language	                      Python
-LLM Framework	                  LangChain
+
+LLM Framework	                 LangChain
+
 AI Model	                      Google Gemini
+
 Resume Parsing	                PyPDF2, python-docx
-Packaging	                      zipfile
+
+Packaging	                     zipfile
 
  **Project Structure** :
+ 
 portfolio-generator/
 
 portfolio.py        # Main Streamlit application
+
 index.html          # Generated HTML file
+
 style.css           # Generated CSS file
+
 script.js           # Generated JavaScript file
+
 portfolio_website.zip
+
 .env                # API key configuration
+
 README.md
 
  **Installation & Setup :**
+ 
 1 Clone the Repository
+
 git clone https://github.com/your-username/ai-portfolio-generator.git
+
 cd ai-portfolio-generator
 
 2 Create Virtual Environment (Recommended)
+
 python -m venv venv
-venv\Scripts\activate  # Windows
-# source venv/bin/activate  # macOS/Linux
+
+venv\Scripts\activate
+
+# Windows  # source venv/bin/activate  # macOS/Linux
 
 3 Install Dependencies
+
 pip install -r requirements.txt
 
 4 Configure Environment Variables
